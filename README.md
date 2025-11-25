@@ -1,6 +1,33 @@
-# AI-Powered-Exam-Proctoring-Platform
-•	Built an AI-driven online exam proctoring system using machine learning to monitor user behavior during tests.
-•	Designed algorithms to analyze webcam, microphone, and system activity data in real time to identify suspicious or anomalous behavior.
-•	Implemented a probability-based detection system with a dynamic graph that rises upward when the user’s cheating probability crosses 60%.
-•	Developed logic to estimate the likelihood of exam malpractice based on detected events and behavioral patterns.
-Tech Stack Used: HTML, CSS, JavaScript, MySQL, Computer Vision, Machine Learning	                   
+# Proctoring Setup
+
+## Steps to Run the Program
+
+1. Create and activate a virtual environment:
+   - **Linux/Mac**:
+     ```bash
+     python3 -m venv venv && source venv/bin/activate
+     ```
+   - **Windows**:
+     ```bash
+     python -m venv venv && .\venv\Scripts\activate
+     ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Navigate to the source directory:
+   ```bash
+   cd src
+   ```
+
+4. Run the program:
+   ```bash
+   python run.py
+   ```
+
+To deactivate the virtual environment:
+```bash
+deactivate
+```
